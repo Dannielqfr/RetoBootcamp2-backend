@@ -12,7 +12,7 @@ export class PersonasController {
   @Get()
   async getPersonas(): Promise<PersonaDto[]> {
     this.logger.log('Obteniendo 10 personas aleatorias...');
-    const { data } = await firstValueFrom(this.httpService.get('https://randomuser.me/api/?results=20'));
+    const { data } = await firstValueFrom(this.httpService.get('https://randomuser.me/api/?results=10'));
     return data.results.map((p: any) => ({
       name: `${p.name.first} ${p.name.last}`,
       gender: p.gender,
