@@ -10,6 +10,8 @@ Durante el primer año trabajé con **Java Spring Boot**, adquiriendo sólidos c
 
 ## 🚀 Tecnologías y herramientas utilizadas
 
-- ✅ **NestJS** – 1 año de experiencia  
-- ✅ **TypeScript** – 2 años de experiencia  
-- ✅ **Swagger** – medio año de experiencia, pero de uso prioritario para la documentación  
+- ✅ **NestJS** – 1 año de experiencia  https://docs.nestjs.com
+- ✅ **TypeScript** – 2 años de experiencia  https://www.typescriptlang.org/docs/
+- ✅ **Swagger** – medio año de experiencia, pero de uso prioritario para la documentación  https://swagger.io/docs/
+
+Info: Respecto al detalle de que parte del código pertenece a cada framework. Solamente Swagger se ve implementado explícitamente en la configuración del main.ts (líneas 6 al 11, 16 y 17); en el caso de NestJs se encuentra en gran parte del código y por ser framework, se encuentra en cada parte, estilo, organización de carpetas, anotaciones, entre otros.
